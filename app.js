@@ -1,7 +1,7 @@
 let intentos = 1;
 let numerosSorteados = [];
 let numeroSecreto; // Declarar numeroSecreto en el ámbito global
-const max = 10;
+const max = 100;
 
 function asignarTextoElemento(elemento, texto) {
   let elementoHTML = document.querySelector(elemento);
